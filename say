@@ -1,0 +1,9 @@
+This is the simple command to make a bot talk using command.
+
+Command: ?say
+
+Response: {delete} {require:<the rolename that you wanna make use this command>} $1+
+
+After adding it use it like-
+?say @user <text>
+or simply ?say <text>
