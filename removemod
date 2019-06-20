@@ -1,0 +1,8 @@
+This command is for removing someone from mod role. It's is similar to makemod but there is only a bit difference.So let's see code
+
+Command: ?removemod
+
+Response: {delete} {require:<admin or any higher role>} {dm:$1} {!setnick $1 $1.user.username} {!role $1 -<Moderator role name>} Hello $1 , now you are no longer an Official Moderator of {server}! and the reason of demoting you is $2+. {!announce <#(log channel id)> $1 got demoted from mod role by {user} because of $2+.}
+
+Usage-
+?removemod @user <reason>
