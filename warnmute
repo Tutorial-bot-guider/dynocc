@@ -1,0 +1,6 @@
+This code is to warn a user as well as mute a user.
+
+Command: ?warnmute
+Response: {require:servermod} {require:Moderators} {!mute $1 $2 $3+} {!warn $1 $3+}
+
+Usage: ?warnmute @user <time of muting> <reason>
