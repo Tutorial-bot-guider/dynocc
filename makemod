@@ -1,0 +1,8 @@
+Using this command you can make anyone moderator. It's one of the most unique and best command.
+
+Command: ?makemod
+
+Response: {delete} {require:<admin or higher rolename>} {dm:$1} $2+ {!setnick $1 ♏$1.user.nick} {!role $1 +<Moderator rolename>} Hello $1, Congratulations now you are Official Moderator of {server}! and the reason of promoting you is $2+. {!announce <#(logging channel id)> $1 got promoted to mod role by {user} because of $2+.}
+
+Use it like-
+?makemod @user <reason of promoting him to mod>
