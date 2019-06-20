@@ -1,0 +1,8 @@
+This command is for changing nickname of members through command.
+
+Command: ?nickname
+
+Response: {delete} {require:<Senior Moderators or any mod or higher role name>} {!setnick $1 $2+} {!announce <#(audit log channelid here)> {user} just changed the nickname of $1 from $1.user.nick to $2+.}
+
+Use this command like-
+?nickname @user <New nickname>
