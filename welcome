@@ -1,0 +1,8 @@
+Using this command you can welcome new joined member who didn't checked any rules or roles section in your server and doing chatting.
+
+Code: ?welcome
+
+Response: {delete} {require:serverMod} $1+ Welcome here, Don't forget to check {#<rules channel name>} and {#<roles channel name(if any)>}. Also don't try to break any rules. Thanks, Regards Dyno bot.
+
+Use it like-
+?welcome @user
