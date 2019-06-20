@@ -1,0 +1,9 @@
+This is a command which allows you to warn anyone using embeds from dyno
+
+Command: ?checkrules
+Response :
+{delete} 
+{require:serverMod} 
+{!announce {channel} $1 You just broke a rule i. e. $2+. Check <#425268980740259840>(replace this channel id with rules channel id) and don't try to break them otherwise I will mute/kick/ban you next time.}
+
+after adding use it like ?checkrules @user <violation name>
