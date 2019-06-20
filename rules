@@ -1,0 +1,9 @@
+This command is to warn a user through text(It's doesn't loggs warnings but it just warns user thorugh text)
+
+Command: ?rules
+Response: 
+{delete} 
+{require:serverMod} 
+$1+ **You've just broken a rule! Make sure you read all the <#375485242724843520>(replace this channel id with your rules channel id) or you could be muted/kicked or even banned the next time you break them!**
+
+Usage: ?rules @user <violation type/name> or leave it blank
