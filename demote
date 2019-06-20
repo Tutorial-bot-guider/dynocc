@@ -1,0 +1,12 @@
+This command loggs demotion and promotion as well as makes user aware that he/she got demoted by whom
+
+Command: ?demote
+
+Response
+{delete} 
+{require:Senior Moderators} 
+{dm:$1} {!role $1 -$2+} 
+{!announce {#audit_log} $1 got demoted from $2 by {user}. } 
+You got demoted from $2 role in {server} by {user}.
+
+Use it like ?demote @user <rolename>
