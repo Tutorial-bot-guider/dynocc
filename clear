@@ -1,0 +1,7 @@
+This command clears message as well as logs that how much messages are deleted by whom.
+
+Command: ?clear
+Response:
+{delete} {require:serverMod} {!purge $1+} {!announce {#<log channel name>} {user} purged $1+ messages in {channel}.}
+
+Use it like ?clear 4
